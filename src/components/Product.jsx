@@ -7,9 +7,9 @@ class Product extends React.Component {
                 <div class="image">
                     <img alt="foto aleatória" src="https://ui-avatars.com/api/?background=random"/>
                 </div>
-                <div class="description place-content-start flex items-start pl-6 flex-col flex-auto text-white">
-                    <h1 class="flex-grow justify-start">Fritadeira elétrica</h1>
-                    <p class="flex-grow justify-start">Descrição do produto...</p>
+                <div class="description flex items-start pl-6 pt-px flex-col flex-auto text-white">
+                    <h1 class="font-bold">Fritadeira elétrica</h1>
+                    <p>Descrição do produto...</p>
                 </div>
             </div>
         );
