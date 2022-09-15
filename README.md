@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Upvote
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple project based off the fullstack.io React book, where you can upvote and downvote products. Bleh.
 
 ## Available Scripts
 

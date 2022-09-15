@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
+import ProductList from './components/ProductList';
 
 function App() {
   return (
-    <div className="App">
-      <Greeting name="Edu"></Greeting>
+    <div className="App p-6">
+      <h1 class="text-3xl font-bold">Lista de Produtos</h1>
+      <ProductList></ProductList>
     </div>
   );
-}
-
-class Greeting extends React.Component {
-  render() {
-    return (
-      <h1 className="greeting text-3xl font-bold underline">
-        Olá, {this.props.name}!!!
-      </h1>
-    );
-  }
 }
 
 export default App;
