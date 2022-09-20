@@ -11,6 +11,7 @@ class ProductList extends React.Component {
                     id={product.id}
                     title={product.title}
                     description={product.description}
+                    votes={product.votes}
                 />
             </div>
         );
