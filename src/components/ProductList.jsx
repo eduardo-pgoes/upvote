@@ -4,15 +4,17 @@ import Seed from '../data/seed';
 
 class ProductList extends React.Component {
     render() {
-        let product = Seed().products[0];
-        return (
-            <div class="lista p-8 flex">
+        const productComponents = Seed().products.map((product => (
                 <Product
                     id={product.id}
                     title={product.title}
                     description={product.description}
                     votes={product.votes}
                 />
+        )));
+        return (
+            <div class="lista p-8 flex flex-col">
+                {productComponents}
             </div>
         );
     }
